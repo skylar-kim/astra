@@ -112,7 +112,7 @@ else {
             $jsonResponse[] = array("url" => $url, "title" => $title, "date" => $photoDate, "media_type" => $mediaType, "copyright" => $copyright, "explanation" => $explanation);
 
             // send back JSON data
-
+            header('Content-Type: application/json');
             echo json_encode($jsonResponse);
 
         }
