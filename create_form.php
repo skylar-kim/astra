@@ -72,8 +72,9 @@ else {
 									    <option value="1">image</option>
 									    <option value="2">video</option>
 									</select>
+                                    <h3 id="media-error" class="invalid-feedback">Media Type is required.</h3>
 								</div>
-                                <h3 id="media-error" class="invalid-feedback">Media Type is required.</h3>
+
 							</div> <!-- .form-group -->
 							  
 							  
