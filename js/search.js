@@ -50,7 +50,7 @@ $(document).ready(function () {
 		.done(function(result) {
 			console.log(result);
 
-			displayGetResult(JSON.parse(result));
+			displayGetResult(result);
 			// displayGetResult(result)
 		})
 		.fail(function() {
@@ -98,7 +98,7 @@ $(document).ready(function () {
 
 
 	function displayGetResult(result) {
-
+		
 		if (result.message == 'Date is required.') {
 			// clear out the existing elements in searchResult
 			$searchResult.html("");
