@@ -98,7 +98,7 @@ $(document).ready(function () {
 
 
 	function displayGetResult(result) {
-		
+
 		if (result.message == 'Date is required.') {
 			// clear out the existing elements in searchResult
 			$searchResult.html("");

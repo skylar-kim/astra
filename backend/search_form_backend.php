@@ -157,6 +157,9 @@ else {
                 }
             }
 
+            $jsonArrayResponse = array();
+            $jsonArrayResponse[] = $filteredResponse;
+
 
             // add the API JSON response to the database to "cache" it
             $url = $filteredResponse["url"];
@@ -194,7 +197,8 @@ else {
 
             // send JSON response to frontend
             header('Content-Type: application/json');
-            echo json_encode($response);
+//            echo json_encode($response);
+            echo json_encode($jsonArrayResponse);
 
             // close statement
             $sqlInsert->close();
