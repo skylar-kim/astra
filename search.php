@@ -34,7 +34,7 @@ session_start();
 
 				<div class="container">
 
-					<form id="search-form" action="" method="GET">
+					<form id="search-form" method="GET">
 
 
 						<label for="search-date" class="col-sm-12 text-white text-center form-label-style description-style">Search by Date: <span class="text-danger">*</span></label>

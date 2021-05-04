@@ -90,7 +90,7 @@ else {
 							<label for="explanation-id" class="col-sm-12 text-white text-center form-label-style">Explanation: <span class="text-danger">*</span></label>
 							<div class="form-group row justify-content-center">
 								<div class="col-sm-12 col-md-10 col-lg-8">
-									<input type="textarea" class="form-control" id="explanation-id" name="explanation">
+									<input type="text" class="form-control" id="explanation-id" name="explanation">
                                     <h3 id="explanation-error" class="invalid-feedback">Explanation is required.</h3>
 								</div>
 							</div> <!-- .form-group -->
