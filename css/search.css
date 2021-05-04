@@ -1,0 +1,38 @@
+body {
+	background-color: black;
+	/*font-family: 'Karla', sans-serif;*/
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+.title-style {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+	font-size: 70px;
+	text-align: center;
+}
+
+.picture-title {
+	color: white;
+}
+
+.search-form-container-hide {
+	display: none;
+}
+
+.search-form-container-show {
+	display: block;
+}
+
+.search-result-hide {
+	display: none;
+}
+
+.search-result-show {
+	display: block;
+}
+
+.navbar-text-style {
+	color: white !important;
+}
