@@ -111,6 +111,18 @@ $(document).ready(function () {
 			// append the HTML element to searchResult
 			$searchResult.append(errorHTML);
 		}
+		else if (result.message == "You are only allowed to input dates up to and including today.") {
+			// clear out the existing elements in searchResult
+			$searchResult.html("");
+
+			// error message HTML
+			let errorHTML = `<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+								<h3 class="text-white text-center">You are only allowed to input dates up to and including today.</h3>
+							</div>`;
+
+			// append the HTML element to searchResult
+			$searchResult.append(errorHTML);
+		}
 		else {
 			// if there is no message from JSON result, then data is good
 			// clears out the existing elements in searchResult
