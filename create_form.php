@@ -139,9 +139,9 @@ else {
             }
 
             if ( document.querySelector('#media-type-id').value == "" ) {
-                document.querySelector('#password-id').classList.add('is-invalid');
+                document.querySelector('#media-type-id').classList.add('is-invalid');
             } else {
-                document.querySelector('#password-id').classList.remove('is-invalid');
+                document.querySelector('#media-type-id').classList.remove('is-invalid');
             }
 
             if ( document.querySelector('#explanation-id').value == "" ) {
