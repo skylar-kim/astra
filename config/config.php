@@ -8,10 +8,10 @@ $username = $url["user"];
 $password = $url["pass"];
 $db = substr($url["path"],1);
 
-define('DB_HOST', $dbhost);
-define('DB_USER', $username);
-define('DB_PASS', $password);
-define('DB_NAME', $db);
+define('DB_HOST', $url["host"]);
+define('DB_USER', $url["user"]);
+define('DB_PASS', $url["pass"]);
+define('DB_NAME', substr($url["path"],1));
 
 
 ?>
