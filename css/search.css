@@ -36,3 +36,8 @@ body {
 .navbar-text-style {
 	color: white !important;
 }
+
+.search-back-style {
+	text-decoration: underline;
+	background-color: transparent;
+}

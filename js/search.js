@@ -139,7 +139,7 @@ $(document).ready(function () {
 
 					apodHTML =
 						`
-						<h3>back to <a class="text-white" href="search.php">search</a></h3>
+						<h3><span class="iconify" data-icon="iwwa-arrow-left" data-inline="false"></span> back to <a class="text-white search-back-style" href="search.php">search</a></h3>
 						<div class="col-12 col-sm-12 col-md-12 col-lg-7">
 				
 							<div class="embed-responsive embed-responsive-16by9">
@@ -165,7 +165,7 @@ $(document).ready(function () {
 					apodHTML =
 						`
 						<div class="col-12 col-sm-12 col-md-12 col-lg-12">
-							<h3>back to <a class="text-white" href="search.php">search</a></h3>
+							<h3><span class="iconify" data-icon="iwwa-arrow-left" data-inline="false"></span> back to <a class="text-white search-back-style" href="search.php">search</a></h3>
 						</div>
 						<div class="col-12 col-sm-12 col-md-12 col-lg-7">
 				
