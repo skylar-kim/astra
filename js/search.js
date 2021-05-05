@@ -82,6 +82,7 @@ $(document).ready(function () {
 		if (parsedMessage.message == "success") {
 			console.log(parsedMessage.message)
 			// window.location.href = "search.php";
+			alert("Successfully added to gallery.")
 
 		}
 		// TODO: message: "readding favorites"
