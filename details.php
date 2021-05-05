@@ -100,7 +100,7 @@ else {
 
 			<div class="col-12 col-sm-12 col-md-12 col-lg-5">
 				
-				<h2 class="picture-title"><?php echo $row["title"]; ?></h2>
+				<h2 class="picture-title py-3"><?php echo $row["title"]; ?></h2>
 
 				<button type="button" class="btn btn-outline-light delete-button" value="<?php echo $_GET["photo_id"];?>">Delete From Favorites</button>
 				
