@@ -15,7 +15,35 @@ session_start();
     <!-- RESPONSIVENESS -->
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <style type="text/css">
+        body {
+            background-color: black;
+        }
 
+        .demo-title-style {
+            font-size: 45px;
+            font-weight: 200;
+        }
+
+        .demo-description-style {
+            font-size: 25px;
+            font-weight: 200;
+        }
+
+        @media (max-width: 768px) {
+            .demo-title-style {
+                font-size: 30px;
+                font-weight: 200;
+            }
+
+            .demo-description-style {
+                font-size: 15px;
+                font-weight: 200;
+            }
+        }
+
+
+    </style>
 </head>
 <body>
 <div class="top-half">
@@ -33,6 +61,21 @@ session_start();
                 <a href="search.php" class="btn btn-outline-light btn-lg">search for the stars</a>
             </div>
         </div>
+    </div>
+</div>
+<div class="bottom-half">
+    <div class="container-fluid my-5 ">
+        <div class="row py-3 px-3">
+            <div class="col-12 col-sm-12 col-mg-12 col-lg-4 px-5 py-5">
+                <h3 class="text-white demo-title-style"><em>Ad Astra..."to the stars"</em></h3>
+                <p class="text-white demo-description-style">ASTRA is a new way to bring the wonders of outer space into your hands. Browse and create your own celestial gallery by signing up today.</p>
+            </div>
+            <div class="embed-responsive embed-responsive-16by9 col-12 col-sm-12 col-md-12 col-lg-8">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QgK_t3OrZDM" allowfullscreen></iframe>
+            </div>
+
+        </div>
+
     </div>
 </div>
 
