@@ -37,6 +37,10 @@ require("../config/db_config.php");
  *      "explanation": "explanation"
  * }
  * ]
+ *
+ * return JSON format for messages
+ * {"message": "Date is required."}
+ * {"message": "You are only allowed to input dates up to and including today."}
  */
 
 // server side validation
