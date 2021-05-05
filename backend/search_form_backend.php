@@ -42,6 +42,7 @@ require("../config/db_config.php");
 // server side validation
 if (!isset($_GET["searchDate"]) || empty($_GET["searchDate"])) {
     $response = array("message" => "Date is required.");
+    header('Content-Type: application/json');
     echo json_encode($response);
 }
 else {
