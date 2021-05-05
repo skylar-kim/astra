@@ -60,6 +60,7 @@ session_start();
 
 
 	<div class="container">
+        <h1>back to <a href="search.php">search</a></h1>
 		
 		<div class="row justify-content-center search-result d-none">
 			<div class="embed-responsive embed-responsive-16by9">
