@@ -146,7 +146,7 @@ $(document).ready(function () {
 			
 						<div class="col-12 col-sm-12 col-md-12 col-lg-5">
 							
-							<h2 class="picture-title">${apod.title}</h2>
+							<h2 class="picture-title my-3">${apod.title}</h2>
 			
 							<button type="button" class="btn btn-outline-light favorite-button">Favorite</button>
 							
@@ -169,7 +169,7 @@ $(document).ready(function () {
 		
 						<div class="col-12 col-sm-12 col-md-12 col-lg-5">
 							
-							<h2 class="picture-title">${apod.title}</h2>
+							<h2 class="picture-title my-3">${apod.title}</h2>
 							<button type="button" class="btn btn-outline-light favorite-button">Favorite</button>
 							
 							<h5 id="photo-date" class="picture-title py-2">${apod.date}</h5>
