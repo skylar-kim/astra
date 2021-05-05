@@ -105,7 +105,16 @@ $(document).ready(function () {
 			$searchResult.html("");
 
 			// error message HTML
-			let errorHTML = `<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+			let errorHTML = `
+							<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+								<h4>
+									<a class="text-white search-back-style" href="search.php">
+										<span class="iconify" data-icon="dashicons:arrow-left-alt" data-inline="false"></span> 
+										back to search
+									</a>
+								</h4>
+							</div>
+							<div class="col-12 col-sm-12 col-md-12 col-lg-12">
 								<h3 class="text-white text-center">Date is required.</h3>
 							</div>`;
 
@@ -120,10 +129,9 @@ $(document).ready(function () {
 			let errorHTML = `
 							<div class="col-12 col-sm-12 col-md-12 col-lg-12">
 								<h4>
-									<span class="iconify" data-icon="dashicons:arrow-left-alt" data-inline="false"></span> 
-									back to 
 									<a class="text-white search-back-style" href="search.php">
-										search
+										<span class="iconify" data-icon="dashicons:arrow-left-alt" data-inline="false"></span> 
+										back to search
 									</a>
 								</h4>
 							</div>
@@ -150,14 +158,13 @@ $(document).ready(function () {
 					apodHTML =
 						`
 						<div class="col-12 col-sm-12 col-md-12 col-lg-12">
-							<h4>
-								<span class="iconify" data-icon="dashicons:arrow-left-alt" data-inline="false"></span> 
-								back to 
-								<a class="text-white search-back-style" href="search.php">
-									search
-								</a>
-							</h4>
-						</div>
+								<h4>
+									<a class="text-white search-back-style" href="search.php">
+										<span class="iconify" data-icon="dashicons:arrow-left-alt" data-inline="false"></span> 
+										back to search
+									</a>
+								</h4>
+							</div>
 						<div class="col-12 col-sm-12 col-md-12 col-lg-7">
 				
 							<div class="embed-responsive embed-responsive-16by9">
@@ -183,14 +190,13 @@ $(document).ready(function () {
 					apodHTML =
 						`
 						<div class="col-12 col-sm-12 col-md-12 col-lg-12">
-							<h4>
-								<span class="iconify" data-icon="dashicons:arrow-left-alt" data-inline="false"></span> 
-								back to 
-								<a class="text-white search-back-style" href="search.php">
-									search
-								</a>
-							</h4>
-						</div>
+								<h4>
+									<a class="text-white search-back-style" href="search.php">
+										<span class="iconify" data-icon="dashicons:arrow-left-alt" data-inline="false"></span> 
+										back to search
+									</a>
+								</h4>
+							</div>
 						<div class="col-12 col-sm-12 col-md-12 col-lg-7">
 				
 							<a href="${apod.url}" data-lightbox="${apod.title}" data-title="${apod.title}" >
