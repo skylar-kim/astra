@@ -164,7 +164,9 @@ $(document).ready(function () {
 
 					apodHTML =
 						`
-						<h3>back to <a class="text-white" href="search.php">search</a></h3>
+						<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+							<h3>back to <a class="text-white" href="search.php">search</a></h3>
+						</div>
 						<div class="col-12 col-sm-12 col-md-12 col-lg-7">
 				
 							<a href="${apod.url}" data-lightbox="${apod.title}" data-title="${apod.title}" >
