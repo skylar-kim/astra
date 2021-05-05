@@ -27,6 +27,10 @@ video {
 
 .card-transparent {
     background-color: transparent;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .navbar-text-style {
