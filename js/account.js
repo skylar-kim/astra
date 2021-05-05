@@ -47,6 +47,7 @@ $(document).ready(function () {
 							<a href=""><img src="${fav.url}" class="img-fluid" alt="${fav.title}"></a>
 							<span class="photo-id d-none">${fav.photo_id}</span>
 							<div class="card-body text-center">
+								<h5 class="card-title text-white">${fav.title}</h5>
 								<a href="#" class="btn btn-outline-light">See Details</a>
 							</div>
 						</div>
@@ -59,6 +60,7 @@ $(document).ready(function () {
 							<iframe class="embed-responsive-item" src="${fav.url}" allowfullscreen></iframe>
 							<span class="photo-id d-none">${fav.photo_id}</span>
 							<div class="card-body text-center">
+								<h5 class="card-title text-white">${fav.title}</h5>
 								<a href="#" class="btn btn-outline-light">See Details</a>
 							</div>
 						</div>
