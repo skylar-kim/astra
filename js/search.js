@@ -117,7 +117,17 @@ $(document).ready(function () {
 			$searchResult.html("");
 
 			// error message HTML
-			let errorHTML = `<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+			let errorHTML = `
+							<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+								<h4>
+									<span class="iconify" data-icon="dashicons:arrow-left-alt" data-inline="false"></span> 
+									back to 
+									<a class="text-white search-back-style" href="search.php">
+										search
+									</a>
+								</h4>
+							</div>
+							<div class="col-12 col-sm-12 col-md-12 col-lg-12">
 								<h3 class="text-white text-center">You are only allowed to input dates up to and including today.</h3>
 							</div>`;
 
@@ -139,7 +149,15 @@ $(document).ready(function () {
 
 					apodHTML =
 						`
-						<h3><span class="iconify" data-icon="iwwa-arrow-left" data-inline="false"></span> back to <a class="text-white search-back-style" href="search.php">search</a></h3>
+						<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+							<h4>
+								<span class="iconify" data-icon="dashicons:arrow-left-alt" data-inline="false"></span> 
+								back to 
+								<a class="text-white search-back-style" href="search.php">
+									search
+								</a>
+							</h4>
+						</div>
 						<div class="col-12 col-sm-12 col-md-12 col-lg-7">
 				
 							<div class="embed-responsive embed-responsive-16by9">
@@ -165,7 +183,13 @@ $(document).ready(function () {
 					apodHTML =
 						`
 						<div class="col-12 col-sm-12 col-md-12 col-lg-12">
-							<h3><span class="iconify" data-icon="iwwa-arrow-left" data-inline="false"></span> back to <a class="text-white search-back-style" href="search.php">search</a></h3>
+							<h4>
+								<span class="iconify" data-icon="dashicons:arrow-left-alt" data-inline="false"></span> 
+								back to 
+								<a class="text-white search-back-style" href="search.php">
+									search
+								</a>
+							</h4>
 						</div>
 						<div class="col-12 col-sm-12 col-md-12 col-lg-7">
 				
