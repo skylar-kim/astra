@@ -138,7 +138,9 @@ $(document).ready(function () {
 					console.log("media type is video");
 
 					apodHTML =
-						`<div class="col-12 col-sm-12 col-md-12 col-lg-7">
+						`
+						<h3>back to <a class="text-white" href="search.php">search</a></h3>
+						<div class="col-12 col-sm-12 col-md-12 col-lg-7">
 				
 							<div class="embed-responsive embed-responsive-16by9">
 								<iframe class="embed-responsive-item" src="${apod.url}" allowfullscreen></iframe>
@@ -161,7 +163,9 @@ $(document).ready(function () {
 					console.log("media type is image")
 
 					apodHTML =
-						`<div class="col-12 col-sm-12 col-md-12 col-lg-7">
+						`
+						<h3>back to <a class="text-white" href="search.php">search</a></h3>
+						<div class="col-12 col-sm-12 col-md-12 col-lg-7">
 				
 							<a href="${apod.url}" data-lightbox="${apod.title}" data-title="${apod.title}" >
 								<img src="${apod.url}" class="img-fluid" alt="${apod.title}">
