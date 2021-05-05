@@ -116,13 +116,15 @@ if ( isset($_SESSION["logged_in"]) && $_SESSION["logged_in"] == true ) {
          *  "photo_id": 29,
          *  "title": "The Pelican Nebula in Red and Blue",
          *  "url": "https://apod.nasa.gov/apod/image/2102/Pelican_PetraskoEtAl_960.jpg"
+         *  "photo_date": "2020-01-01"
          * }
          */
 		$jsonObject = array(
 			"photo_id" => $photoRow["photo_id"],
 			"url" => $photoRow["url"],
 			"media_type" => $photoRow["media_type"],
-			"title" => $photoRow["title"]
+			"title" => $photoRow["title"],
+            "photo_date" => $photoRow["photo_date"]
 		);
 
 		// add JSON object to JSON array

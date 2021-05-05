@@ -48,6 +48,7 @@ $(document).ready(function () {
 							<span class="photo-id d-none">${fav.photo_id}</span>
 							<div class="card-body text-center">
 								<h5 class="card-title text-white">${fav.title}</h5>
+								<p class="card-text">${fav.photo_date}</p>
 								<a href="#" class="btn btn-outline-light">See Details</a>
 							</div>
 						</div>
@@ -61,6 +62,7 @@ $(document).ready(function () {
 							<span class="photo-id d-none">${fav.photo_id}</span>
 							<div class="card-body text-center">
 								<h5 class="card-title text-white">${fav.title}</h5>
+								<p class="card-text">${fav.photo_date}</p>
 								<a href="#" class="btn btn-outline-light">See Details</a>
 							</div>
 						</div>
