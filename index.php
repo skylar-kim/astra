@@ -53,7 +53,7 @@ session_start();
     <div class="sticky-top hidden-spacer"></div>
 
     <div class="wrap">
-        <div class="container my-5 py-5 mx-auto mr-auto">
+        <div class="container my-5 py-2 mx-auto mr-auto">
             <div class="row justify-content-center my-3 slide-up">
                 <h1 class="title-style col-12 col-sm-12 col-md-12 col-lg-12">A S T R A</h1>
                 <h2 class="description-style col-12 col-sm-12 col-md-12 col-lg-12">discover your next astronomy photo of
