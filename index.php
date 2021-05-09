@@ -58,7 +58,12 @@ session_start();
                 <h1 class="title-style col-12 col-sm-12 col-md-12 col-lg-12">A S T R A</h1>
                 <h2 class="description-style col-12 col-sm-12 col-md-12 col-lg-12">discover your next astronomy photo of
                     the day</h2>
-                <a href="search.php" class="btn btn-outline-light btn-lg">search for the stars</a>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center py-2">
+                    <a href="search.php" class="btn btn-outline-light btn-lg">search the stars</a>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center">
+                    <button class="btn btn-outline-light btn-lg" onclick="document.querySelector('.bottom-half').scrollIntoView({behavior: 'smooth'});">see the demo</button>
+                </div>
             </div>
         </div>
     </div>
